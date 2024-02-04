@@ -1,0 +1,43 @@
+body {
+  background-color: #f1f1fa;
+}
+h4 {
+  color: #bcbec0;
+}
+.header {
+  text-align: right;
+  font-size: 30px;
+  margin: 10px;
+}
+.members {
+  display: flex;
+  justify-content: space-between;
+}
+.member {
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+.members_pic {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.logo_pic {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.logo_x {
+  height: 30px;
+  width: 30px;
+  filter: invert(39%) sepia(65%) saturate(1171%) hue-rotate(183deg)
+    brightness(93%) contrast(105%);
+}
